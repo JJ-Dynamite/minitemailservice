@@ -1,5 +1,5 @@
 {
-  "name": "faang-minitemail-service-frontend",
+  "name": "minitemailservice-frontend",
   "version": "0.1.0",
   "private": true,
   "description": "Instant temporary email - Frontend",

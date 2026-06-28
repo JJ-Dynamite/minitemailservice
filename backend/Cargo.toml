@@ -1,11 +1,11 @@
 [package]
-name = "faang-minitemail-service-backend"
+name = "minitemailservice-backend"
 version = "0.1.0"
 edition = "2021"
 description = "Instant temporary email - Backend API"
 authors = ["JJ-Dynamite"]
 license = "MIT"
-repository = "https://github.com/JJ-Dynamite/faang-minitemail-service"
+repository = "https://github.com/JJ-Dynamite/minitemailservice"
 
 [dependencies]
 axum = "0.7"
