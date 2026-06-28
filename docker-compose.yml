@@ -9,7 +9,7 @@ services:
       - "3001:3001"
     environment:
       - RUST_LOG=info
-      - DATABASE_URL=postgres://postgres:postgres@db:5432/minitemail_service
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/faang_minitemail_service
     depends_on:
       db:
         condition: service_healthy
@@ -32,7 +32,7 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=minitemail_service
+      - POSTGRES_DB=faang_minitemail_service
     ports:
       - "5432:5432"
     volumes:

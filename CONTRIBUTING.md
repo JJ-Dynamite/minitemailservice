@@ -1,4 +1,4 @@
-# Contributing to minitemail-service
+# Contributing to faang-minitemail-service
 
 Thank you for your interest in contributing!
 
